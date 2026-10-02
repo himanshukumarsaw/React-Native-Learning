@@ -1,183 +1,56 @@
-# React-Native-Learning
-React Native learning journey with Expo — exploring mobile UI, navigation, components, props, state management, and building practical apps.
-# 📱 React Native Learning Journey
+# Welcome to your Expo app 👋
 
-Welcome to my **React Native Learning Repository** 🚀
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-This repository contains my practice code, experiments, and mini-projects while learning **React Native with Expo**.
+## Get started
 
-My goal is to understand how to build modern, responsive, and cross-platform mobile applications using React Native.
+1. Install dependencies
 
----
+   ```bash
+   npm install
+   ```
 
-## 🚀 Tech Stack
+2. Start the app
 
-* ⚛️ React Native
-* 📦 Expo
-* 🟦 JavaScript / TypeScript
-* 🎨 NativeWind / CSS
-* 🧭 Expo Router
-* 📱 Android
-* 💻 VS Code
+   ```bash
+   npx expo start
+   ```
 
----
+In the output, you'll find options to open the app in a
 
-## 📚 What I'm Learning
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-Throughout this repository, I am practicing:
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-* React Native fundamentals
-* Components
-* Props
-* State
-* Hooks
-* `View`, `Text`, `TextInput`, `Button`
-* `Pressable` and `TouchableOpacity`
-* `FlatList`
-* Styling in React Native
-* Responsive UI
-* Forms and user input
-* Navigation with Expo Router
-* Passing data using props
-* API integration
-* AsyncStorage
-* Authentication
-* Reusable components
-* Project folder structure
-* Building real-world mobile applications
+## Get a fresh project
 
----
-
-## 📂 Project Structure
-
-```text
-react-native-learning/
-│
-├── app/
-│   ├── index.tsx
-│   └── ...
-│
-├── components/
-│   └── ...
-│
-├── features/
-│   └── ...
-│
-├── assets/
-│   └── ...
-│
-├── global.css
-├── package.json
-└── README.md
-```
-
-> The structure may change as I learn better ways to organize React Native applications.
-
----
-
-## 🛠️ Getting Started
-
-### 1. Clone the repository
+When you're ready, run:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+npm run reset-project
 ```
 
-### 2. Go to the project folder
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-```bash
-cd YOUR-REPOSITORY
-```
+### Other setup steps
 
-### 3. Install dependencies
+- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
+- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
+- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
 
-```bash
-npm install
-```
+## Learn more
 
-### 4. Start the Expo development server
+To learn more about developing your project with Expo, look at the following resources:
 
-```bash
-npx expo start
-```
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-You can then run the application using:
+## Join the community
 
-* 📱 Expo Go
-* 🤖 Android Emulator
-* 📲 Android Device
+Join our community of developers creating universal apps.
 
----
-
-## 🎯 Learning Goals
-
-My current focus is to:
-
-1. Understand React Native fundamentals.
-2. Build reusable mobile components.
-3. Learn navigation and screen management.
-4. Connect mobile applications with REST APIs.
-5. Learn authentication and backend integration.
-6. Build complete full-stack mobile applications.
-7. Improve my UI/UX development skills.
-
----
-
-## 📈 Progress
-
-* [x] React Native & Expo setup
-* [x] Basic components
-* [x] Props
-* [x] Basic styling
-* [x] Text input
-* [x] Buttons and pressable components
-* [x] FlatList
-* [ ] Navigation
-* [ ] Forms
-* [ ] API integration
-* [ ] Authentication
-* [ ] State management
-* [ ] Backend integration
-* [ ] Complete mobile project
-
----
-
-## 🧪 Practice Projects
-
-Some of the applications and exercises I will build while learning:
-
-* 🏠 Property Listing App
-* 📋 Course Management App
-* 🔐 Authentication App
-* 📝 Notes App
-* 🌦️ Weather App
-* 🛒 Shopping App
-* 📱 Full-Stack Mobile Application
-
----
-
-## 📌 Why This Repository?
-
-I created this repository to document my **React Native learning journey** and track my progress from fundamentals to real-world application development.
-
-Every new concept, practice task, and project will be added here as I continue learning.
-
----
-
-## 👨‍💻 About Me
-
-I'm **Himanshu Kumar Saw**, a B.Tech Computer Science student interested in **Full-Stack Development and Mobile App Development**.
-
-I'm currently learning React Native and exploring how to build scalable applications across web and mobile platforms.
-
----
-
-## ⭐ Learning in Public
-
-This repository is a record of my progress — from writing my first React Native component to building complete mobile applications.
-
-**Learn → Build → Practice → Improve 🚀**
-
----
-
-⭐ If you find this repository useful, feel free to explore it and follow my learning journey.
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
